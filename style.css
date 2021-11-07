@@ -1,0 +1,217 @@
+.mama div{
+    width: 300px;
+    height: 200px;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.box1{
+    position: static;
+}
+.box2{
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+.box3{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.box4{
+    position: fixed;
+    left: 300px;
+    top: 10px;
+}
+.box5{
+    position: static;
+    left: 50%;
+    top: 10px;
+}
+.box6, .box7, .box8, .box9, .box10{
+    position: static;
+}
+.box11{
+    position: sticky;
+    left: 600px;
+    top: 700px;
+}
+.box12{
+    position: relative;
+    right: 100px;
+    bottom: 500px;
+}
+.box13{
+    position: relative;
+    left: 100px;
+    top: 400px;
+}
+.pencil{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 90px;
+    height: 400px;
+    background-color: brown;
+    border-radius: 8px;
+    box-shadow: 1px -35px 60px -20px chocolate;
+}
+.p1{
+    position: absolute;
+    top: -143px;
+    right: 0;
+    width: 100%;
+    height: 160px;
+    background-color: rgb(85, 25, 25);
+    clip-path: polygon(50% 0%, 100% 91%, 100% 100%, 0% 100%, 0% 91%);
+}
+.grifel{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.p2{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-color: gold;
+    border-radius: 100px 100px 0 0;
+    animation: harper 2s cubic-bezier(0.63,-0.17, 0.82, 0.97) infinite;
+}
+@keyframes harper{
+    0%{
+        background-color: gold;
+        box-shadow: inset 3px 2px 5px 2px rgba(252, 229, 100, 0.74);
+    }
+    33%{
+        background-color: gold;
+        box-shadow: inset 3px 2px 5px 2px rgba(243, 229, 147, 0.74);
+    }
+    66%{
+        background-color: gold;
+        box-shadow: inset 3px 2px 5px 2px rgba(248, 237, 174, 0.74);
+    }
+    100%{
+        background-color: gold;
+        box-shadow: inset 3px 2px 5px 2px rgba(197, 190, 150, 0.74);
+    }
+}
+.p3{
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    width: 30px;
+    height: 100%;
+    background-color: gold;
+    border-radius: 100px 100px 0 0;
+    animation: harper 2s cubic-bezier(0.63,-0.17, 0.82, 0.97) infinite;
+}
+@keyframes harper{
+    0%{
+        background-color: gold;
+        box-shadow: inset 3px 2px 5px 2px rgba(252, 229, 100, 0.74);
+    }
+    33%{
+        background-color: gold;
+        box-shadow: inset 3px 2px 5px 2px rgba(243, 229, 147, 0.74);
+    }
+    66%{
+        background-color: gold;
+        box-shadow: inset 3px 2px 5px 2px rgba(248, 237, 174, 0.74);
+    }
+    100%{
+        background-color: gold;
+        box-shadow: inset 3px 2px 5px 2px rgba(197, 190, 150, 0.74);
+    }
+}
+.p4{
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    width: 30px;
+    height: 100%;
+    background-color: gold;
+    border-radius: 100px 100px 0 0;
+    animation: harper 2s cubic-bezier(0.63,-0.17, 0.82, 0.97) infinite;
+}
+@keyframes harper{
+    0%{
+        background-color: gold;
+        box-shadow: inset 3px 2px 5px 2px rgba(252, 229, 100, 0.74);
+    }
+    33%{
+        background-color: gold;
+        box-shadow: inset 3px 2px 5px 2px rgba(243, 229, 147, 0.74);
+    }
+    66%{
+        background-color: gold;
+        box-shadow: inset 3px 2px 5px 2px rgba(248, 237, 174, 0.74);
+    }
+    100%{
+        background-color: gold;
+        box-shadow: inset 3px 2px 5px 2px rgba(197, 190, 150, 0.74);
+    }
+}
+.big_inst{
+    height: 360px;
+    width: 360px;
+    background: rgb(168,74,115);
+    background-image: linear-gradient(-160deg, rgb(93, 5, 134), rgb(80, 11, 184), rgb(106,0,168), rgb(143,13,164), rgb(177,42,144), rgb(221, 68, 127), rgb(238, 90, 88), rgb(241,131,76), rgb(252,166,54), rgb(252,206,37), rgb(252,206,37));
+    position: relative;
+    left: 600px;
+    border-radius: 80px;
+}
+.normal_inst{
+    height: 230px;
+    width: 230px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    border: white solid 25px;
+    border-radius: 80px;
+}
+.small_inst{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    border: white solid 25px;
+    border-radius: 100%;
+    top: 50px;
+    left: 55px;
+}
+.circle{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background-color: white;
+    border-radius: 100%;
+    top: 12px;
+    left: 170px;
+}
+.flag{
+    width: 800px;
+    height: 300px;
+    border: black solid 2px;
+    position: relative;
+    background-color: white;
+    left: 600px;
+}
+.sun{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(160, 7, 7);
+    border-radius: 100%;
+    left: 300px;
+    top: 50px;
+    position: absolute;
+}
+*{
+    margin-top: 10px;
+}
